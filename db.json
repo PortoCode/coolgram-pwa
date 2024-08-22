@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 0.17426345761848938,
+      "title": "Post 1",
+      "content": "Suspendisse tempor tellus sed sem."
+    },
+    {
+      "id": 0.4059039111330558,
+      "title": "Post 2",
+      "content": "Nunc ex enim, blandit quis."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Coolgram</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./src/images/icons/cg-icon-48x48.png"
+    />
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- navegação -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Coolgram</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+            </ul>
+            <button id="btn-installation" type="button" class="btn btn-warning">
+              Install
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-background">
+        <h1>About C o o l Gram</h1>
+      </div>
+
+      <div class="m-4">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a mauris
+                ultricies, cursus leo eget, aliquam ex. Pellentesque porta, tellus at
+                tempus suscipit, libero dui posuere lectus, et aliquam leo sem sed nisl.
+                Integer malesuada libero felis, sit amet fermentum magna tristique nec.
+                Nulla elementum, orci at mattis euismod, turpis arcu vulputate lectus,
+                id ultricies velit nisi vel massa. Curabitur eget odio tempor, cursus
+                elit id, vestibulum sem. Nullam faucibus vitae libero vel egestas.
+                Curabitur sed malesuada tortor, a ultrices lectus. Curabitur eget nisl
+                convallis risus pulvinar sollicitudin eu vel quam. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Suspendisse tempus consectetur sapien
+                sed imperdiet. Sed purus metus, mattis vitae blandit a, dignissim quis
+                ex. Pellentesque magna mauris, mollis nec neque quis, finibus tincidunt
+                massa. Quisque sed neque sed nulla faucibus vulputate. Vivamus vel lorem
+                elit. Duis aliquam egestas ligula, nec viverra libero ultrices et.
+                Praesent ac ligula eros. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Aenean ornare ipsum et
+                augue vulputate, non aliquet eros consequat. Proin felis arcu, rhoncus a
+                nunc non, gravida euismod elit. Sed nec sem ut metus egestas porttitor
+                at vel velit. Proin quis ligula volutpat, facilisis mauris eu, placerat
+                ligula. Sed eu pharetra justo. Etiam mattis pellentesque elit et
+                scelerisque. Sed eu nisi nisi. Maecenas nulla enim, porttitor et purus
+                a, maximus eleifend libero. Aenean feugiat viverra dolor a pulvinar.
+                Phasellus fermentum ex ac diam cursus fermentum. Cras hendrerit viverra
+                porta. Etiam ut pulvinar orci. Maecenas sodales mollis congue. Cras ac
+                ultricies elit. Ut turpis risus, aliquet vitae vestibulum a, varius ac
+                est. Ut vestibulum commodo purus, vitae pulvinar tellus ultrices
+                interdum. Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. In vel tincidunt purus. Sed accumsan
+                aliquam urna eu molestie. In tempor facilisis vulputate. Nam sapien leo,
+                auctor ut auctor tempor, vehicula id neque. Mauris eget efficitur nulla.
+              </div>
+          </div>
+      </div>
+
+      <!-- Button trigger modal -->
+      <button
+        id="btn-create-post"
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Create Post
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Create Post
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Title</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder=""
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Content</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
